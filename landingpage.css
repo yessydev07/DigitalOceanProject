@@ -1,5 +1,170 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #1433d6;
+}
+
+nav {
+    background-color: white;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.headerbtn{
+    background-color: #1433d6;
+    border-radius: 20px;
+    padding: 5px;
+}
+.herotext{
+    margin: auto;
+    gap: 2em;
+}
+
+ul li{
+  list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 3em;
+}
+.herobtn button{
+  border-radius: 18px;
+  padding: 10px 50px;
+  background-color: #f9f9fe;
+}
+.herobtn button :hover{
+    background-color: #1433d6;
+}
+.blueimage{
+    background-color: blue;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px; 
+}
+.centerimage{
+    position: absolute;
+    border: none;                                                                                                                                                                                                                                                                                                                                                                                                          
+    width: 700px;
+    height: 350px;
+    top: 355px;
+    left: 600px;
+}
+.body{
+    background-color: #f9f9fe rgb(249,250,254);
+    margin: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+}
+.designimage{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.designimage{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.background{
+    background-color: #b5f6ff;
+    height: 100;
+    position: relative;
+    width: 70px;
+    top: 100px;
+    left: 150px;
+}
+
+.oceanimage{
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    width: 1000px;
+    left: 100px;
+
+}
+.oceantext{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: #b5f6ff rgb(181,246,255);
+    border: 2px solid black;
+
+
+}
+.btnoceans{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #1433d6 rgb(20,51,214);
+    
+
+
+}
+.below comment{
+    border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+.body{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 900px;
+    top: 700px;
+    right: 700px;
+    margin-left: auto;
+    margin-right: auto;
+             
+}
+.parentfooter{
+    display: flex;
+    gap: 3em;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafe,rgb(249,280,254);
+    padding-top: 100px;
+    
+}
+.layout1{
+    padding-bottom: 100px;
+}
+.layout4{
+    padding-bottom: 320px;
+}
+.layout5{
+    padding-bottom: 500px;
+}
+
+.finalline{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
